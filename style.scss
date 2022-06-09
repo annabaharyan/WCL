@@ -592,10 +592,14 @@
                 color: $colorGreen;
             }
             @media (max-width:900px) {
-                flex-wrap: wrap;
+                flex-direction: column;
                 font-size: 11px;
                 .img {
                     max-width: 150px;
+                }
+                ul {
+                    flex-direction: row;
+                    column-gap: 10px;
                 }
             }
         }

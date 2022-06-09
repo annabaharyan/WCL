@@ -676,10 +676,13 @@ footer {
       color: #95c356; }
     @media (max-width: 900px) {
       footer .row-1 {
-        flex-wrap: wrap;
+        flex-direction: column;
         font-size: 11px; }
         footer .row-1 .img {
-          max-width: 150px; } }
+          max-width: 150px; }
+        footer .row-1 ul {
+          flex-direction: row;
+          column-gap: 10px; } }
   footer .row-2 {
     max-width: 1240px;
     width: 100%;
